@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Waysay"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Waysay Inbox SDK"
 
 # This description is used to generate tags and improve search results.
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source           = { :git => "https://github.com/comptonmc/Waysay.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/comptonmc/Waysay.git", :tag => "#{s.version}" }
   s.ios.vendored_library = 'Pod/Classes/*.a'
-  s.public_header_files = 'Pod/Classes/*.h'
+  #s.public_header_files = 'Pod/Classes/headers/*.{h}'
+  s.source_files = 'Pod/Classes/*/*.*'
   s.resources 		= 'Pod/Assets/*.xcassets'
 
   s.dependency 'AFNetworking', '~> 2.5'
