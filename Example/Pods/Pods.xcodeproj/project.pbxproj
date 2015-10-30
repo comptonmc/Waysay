@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497EDC4E4E5F8030CFB34485377CD07E /* Waysay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FFE3357F73D8F346E47AE961B73302 /* Waysay-dummy.m */; };
+		4F1228301BE2F4A000ED7CDF /* libWaysay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F12282E1BE2F4A000ED7CDF /* libWaysay.a */; };
+		4F1228311BE2F4A000ED7CDF /* Waysay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F12282F1BE2F4A000ED7CDF /* Waysay.h */; };
+		695F14D562B4CF637A098E4106F5E2F2 /* Pods-Waysay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4788E49416E69B9C130813625AF20F44 /* Pods-Waysay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9522713ED40AF2D04518F29D16221C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A5131875093CDCB8271135100698DE75 /* Pods-Waysay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E062C9EB5226C52A1CCCD5434355D6 /* Pods-Waysay_Tests-dummy.m */; };
+		B47B78FFAB040F13F39753051CCA5873 /* Waysay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FD328CD6D2A091BFF48264F17734BB /* Waysay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0720C43F2508D4C1A6A34AD6A82D67A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C92D442FD3C2E283C827497A74F9E29E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 973200F24374C4E334692496822B94CC /* ReplaceMe.m */; };
+		FD3DDF3E64CDF5562C621AF051DD2BA4 /* Waysay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CBFABB577116AC1026B14E737560624 /* Waysay.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78A039394F5D7B36ACAA82F7409DD25F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A539354796FD08E24129267E879302;
+			remoteInfo = "Waysay-Waysay";
+		};
+		FBEA664B8587A2CA3BF8D3F015A93F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44ABB4692D7E12553B0C6ED9EFE35832;
+			remoteInfo = Waysay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FD328CD6D2A091BFF48264F17734BB /* Waysay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Waysay-umbrella.h"; sourceTree = "<group>"; };
+		0EB061320C26119E30B60DC8D91F4C4A /* Pods-Waysay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Waysay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		205CFE4F7364ADB69F78CE9E3C52DDB1 /* Pods-Waysay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Waysay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22D467BB9C6436CAF2DCE2003523485D /* Pods-Waysay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Waysay_Tests-resources.sh"; sourceTree = "<group>"; };
+		22FFE3357F73D8F346E47AE961B73302 /* Waysay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Waysay-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4253D62EE1C4BAE669AECCCE2546F24F /* Pods-Waysay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Waysay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4788E49416E69B9C130813625AF20F44 /* Pods-Waysay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Waysay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4813F552B384D5A46247199A57FCCCFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4925CD0163A061E63A53727B28723220 /* Pods_Waysay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Waysay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F12282E1BE2F4A000ED7CDF /* libWaysay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWaysay.a; sourceTree = "<group>"; };
+		4F12282F1BE2F4A000ED7CDF /* Waysay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waysay.h; sourceTree = "<group>"; };
+		59E062C9EB5226C52A1CCCD5434355D6 /* Pods-Waysay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Waysay_Tests-dummy.m"; sourceTree = "<group>"; };
+		5A01E303AD66CFDF3EE92DA3DE0F996C /* Waysay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Waysay.modulemap; sourceTree = "<group>"; };
+		5CA6F3C836F992DAA19E12800ECB812F /* Waysay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Waysay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBFABB577116AC1026B14E737560624 /* Waysay.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Waysay.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D517D4B5DDB7DD6AC0855CDE07C3774 /* Waysay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Waysay.xcconfig; sourceTree = "<group>"; };
+		60A794FCC135CF31317CBBEBFDEF8A04 /* Waysay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Waysay-prefix.pch"; sourceTree = "<group>"; };
+		6A23252B07736C404F3897DC96542180 /* Pods-Waysay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Waysay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6A8D6D7FA0C35473ADADF2EA9102DBE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E08945F076948903CB930B78BE1675 /* Pods-Waysay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Waysay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		973200F24374C4E334692496822B94CC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E558D4E8550A478EEC0CA4228E89AF20 /* Pods-Waysay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Waysay_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052E71E5EEBF9AEE8575B9329F2CF955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0720C43F2508D4C1A6A34AD6A82D67A /* Foundation.framework in Frameworks */,
+				4F1228301BE2F4A000ED7CDF /* libWaysay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0EE03A2CE59D45076BCFDED8411832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B28D6FB3C03C26E0709E533BAD7FE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9522713ED40AF2D04518F29D16221C6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0181177CF706C49A30A0D42FD0FD4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4925CD0163A061E63A53727B28723220 /* Pods_Waysay_Tests.framework */,
+				5CBFABB577116AC1026B14E737560624 /* Waysay.bundle */,
+				5CA6F3C836F992DAA19E12800ECB812F /* Waysay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CBE822AA1F1CF4ED5E6D2FD659F815 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9AF8A3E4A0D06A90A06C1B0E0570D8E0 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				877BB3A446286676EFFA9115F4237176 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0D0181177CF706C49A30A0D42FD0FD4D /* Products */,
+				B366D076A67B8F9DC6EA89A65FC12824 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		877BB3A446286676EFFA9115F4237176 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D7178656DA57B2F272E72DAB4E026 /* Waysay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9AF8A3E4A0D06A90A06C1B0E0570D8E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				973200F24374C4E334692496822B94CC /* ReplaceMe.m */,
+				4F12282E1BE2F4A000ED7CDF /* libWaysay.a */,
+				4F12282F1BE2F4A000ED7CDF /* Waysay.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D8268AA4243E7E5DA6CAD46628E754C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4813F552B384D5A46247199A57FCCCFB /* Info.plist */,
+				5A01E303AD66CFDF3EE92DA3DE0F996C /* Waysay.modulemap */,
+				5D517D4B5DDB7DD6AC0855CDE07C3774 /* Waysay.xcconfig */,
+				22FFE3357F73D8F346E47AE961B73302 /* Waysay-dummy.m */,
+				60A794FCC135CF31317CBBEBFDEF8A04 /* Waysay-prefix.pch */,
+				00FD328CD6D2A091BFF48264F17734BB /* Waysay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Waysay";
+			sourceTree = "<group>";
+		};
+		B366D076A67B8F9DC6EA89A65FC12824 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86FDBDC5E1EF663E8B243C94446EB26 /* Pods-Waysay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B86FDBDC5E1EF663E8B243C94446EB26 /* Pods-Waysay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A8D6D7FA0C35473ADADF2EA9102DBE2 /* Info.plist */,
+				E558D4E8550A478EEC0CA4228E89AF20 /* Pods-Waysay_Tests.modulemap */,
+				205CFE4F7364ADB69F78CE9E3C52DDB1 /* Pods-Waysay_Tests-acknowledgements.markdown */,
+				76E08945F076948903CB930B78BE1675 /* Pods-Waysay_Tests-acknowledgements.plist */,
+				59E062C9EB5226C52A1CCCD5434355D6 /* Pods-Waysay_Tests-dummy.m */,
+				6A23252B07736C404F3897DC96542180 /* Pods-Waysay_Tests-frameworks.sh */,
+				22D467BB9C6436CAF2DCE2003523485D /* Pods-Waysay_Tests-resources.sh */,
+				4788E49416E69B9C130813625AF20F44 /* Pods-Waysay_Tests-umbrella.h */,
+				0EB061320C26119E30B60DC8D91F4C4A /* Pods-Waysay_Tests.debug.xcconfig */,
+				4253D62EE1C4BAE669AECCCE2546F24F /* Pods-Waysay_Tests.release.xcconfig */,
+			);
+			name = "Pods-Waysay_Tests";
+			path = "Target Support Files/Pods-Waysay_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE8D7178656DA57B2F272E72DAB4E026 /* Waysay */ = {
+			isa = PBXGroup;
+			children = (
+				64CBE822AA1F1CF4ED5E6D2FD659F815 /* Pod */,
+				9D8268AA4243E7E5DA6CAD46628E754C /* Support Files */,
+			);
+			name = Waysay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28BE68C81A29F4DBC4FA7B6C92604BAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1228311BE2F4A000ED7CDF /* Waysay.h in Headers */,
+				695F14D562B4CF637A098E4106F5E2F2 /* Pods-Waysay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D688010E3B7EF73E4BC3DCD718C95C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47B78FFAB040F13F39753051CCA5873 /* Waysay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26A539354796FD08E24129267E879302 /* Waysay-Waysay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DB61A78B6949D2E805FE5743F7537D /* Build configuration list for PBXNativeTarget "Waysay-Waysay" */;
+			buildPhases = (
+				278DFA3E3A61401F72775213CA719A1D /* Sources */,
+				6B0EE03A2CE59D45076BCFDED8411832 /* Frameworks */,
+				4B832337FD44868656F18F5475770E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waysay-Waysay";
+			productName = "Waysay-Waysay";
+			productReference = 5CBFABB577116AC1026B14E737560624 /* Waysay.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		44ABB4692D7E12553B0C6ED9EFE35832 /* Waysay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BDBDD611FA6ADC8B6A25B8B56FEAEC /* Build configuration list for PBXNativeTarget "Waysay" */;
+			buildPhases = (
+				37087614212763BB5FDEB95EAA550F93 /* Sources */,
+				6B28D6FB3C03C26E0709E533BAD7FE15 /* Frameworks */,
+				39AEE41CE663CC320DAF3AD2527F6664 /* Resources */,
+				D2D688010E3B7EF73E4BC3DCD718C95C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ABA85F39E9C6830D3A274E5B7A9FB4 /* PBXTargetDependency */,
+			);
+			name = Waysay;
+			productName = Waysay;
+			productReference = 5CA6F3C836F992DAA19E12800ECB812F /* Waysay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65CAF2FBC380807E0F93EDD948EBC6A4 /* Pods-Waysay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB7606FEFF534899482732ED6E0EE09 /* Build configuration list for PBXNativeTarget "Pods-Waysay_Tests" */;
+			buildPhases = (
+				716117C75C2A71411C3905477164AAED /* Sources */,
+				052E71E5EEBF9AEE8575B9329F2CF955 /* Frameworks */,
+				28BE68C81A29F4DBC4FA7B6C92604BAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8680051C648789070AC3F5B03A32BDC /* PBXTargetDependency */,
+			);
+			name = "Pods-Waysay_Tests";
+			productName = "Pods-Waysay_Tests";
+			productReference = 4925CD0163A061E63A53727B28723220 /* Pods_Waysay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D0181177CF706C49A30A0D42FD0FD4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65CAF2FBC380807E0F93EDD948EBC6A4 /* Pods-Waysay_Tests */,
+				44ABB4692D7E12553B0C6ED9EFE35832 /* Waysay */,
+				26A539354796FD08E24129267E879302 /* Waysay-Waysay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AEE41CE663CC320DAF3AD2527F6664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3DDF3E64CDF5562C621AF051DD2BA4 /* Waysay.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B832337FD44868656F18F5475770E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278DFA3E3A61401F72775213CA719A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37087614212763BB5FDEB95EAA550F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92D442FD3C2E283C827497A74F9E29E /* ReplaceMe.m in Sources */,
+				497EDC4E4E5F8030CFB34485377CD07E /* Waysay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716117C75C2A71411C3905477164AAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5131875093CDCB8271135100698DE75 /* Pods-Waysay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6ABA85F39E9C6830D3A274E5B7A9FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Waysay-Waysay";
+			target = 26A539354796FD08E24129267E879302 /* Waysay-Waysay */;
+			targetProxy = 78A039394F5D7B36ACAA82F7409DD25F /* PBXContainerItemProxy */;
+		};
+		C8680051C648789070AC3F5B03A32BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Waysay;
+			target = 44ABB4692D7E12553B0C6ED9EFE35832 /* Waysay */;
+			targetProxy = FBEA664B8587A2CA3BF8D3F015A93F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D148873F404DD7DA7C4B719BA99B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB061320C26119E30B60DC8D91F4C4A /* Pods-Waysay_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Waysay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Waysay_Tests/Pods-Waysay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Waysay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		232A67F52DC66262C7FBD05080517A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D517D4B5DDB7DD6AC0855CDE07C3774 /* Waysay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Waysay/Waysay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Waysay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Waysay/Waysay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Waysay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27B429F1BDFBB89C58353F34ED1E8D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D517D4B5DDB7DD6AC0855CDE07C3774 /* Waysay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = Waysay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		69D31731E3FE9B3F4F4C07922A9C38A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D517D4B5DDB7DD6AC0855CDE07C3774 /* Waysay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Waysay/Waysay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Waysay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Waysay/Waysay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Waysay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		975A9BF6D2F17E77EE7E5A133845A220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D517D4B5DDB7DD6AC0855CDE07C3774 /* Waysay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = Waysay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FA8E89E2E32178B5014A5B094EB2105A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4253D62EE1C4BAE669AECCCE2546F24F /* Pods-Waysay_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Waysay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Waysay_Tests/Pods-Waysay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Waysay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB7606FEFF534899482732ED6E0EE09 /* Build configuration list for PBXNativeTarget "Pods-Waysay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D148873F404DD7DA7C4B719BA99B25 /* Debug */,
+				FA8E89E2E32178B5014A5B094EB2105A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DB61A78B6949D2E805FE5743F7537D /* Build configuration list for PBXNativeTarget "Waysay-Waysay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975A9BF6D2F17E77EE7E5A133845A220 /* Debug */,
+				27B429F1BDFBB89C58353F34ED1E8D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BDBDD611FA6ADC8B6A25B8B56FEAEC /* Build configuration list for PBXNativeTarget "Waysay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D31731E3FE9B3F4F4C07922A9C38A6 /* Debug */,
+				232A67F52DC66262C7FBD05080517A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

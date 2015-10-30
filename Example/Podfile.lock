@@ -1,0 +1,14 @@
+PODS:
+  - Waysay (0.1.0)
+
+DEPENDENCIES:
+  - Waysay (from `../`)
+
+EXTERNAL SOURCES:
+  Waysay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Waysay: 03c5fa0ac0f38b9086efe27d35dec7401e335b04
+
+COCOAPODS: 0.39.0
