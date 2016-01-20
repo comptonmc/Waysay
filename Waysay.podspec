@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   s.dependency 'TwitterCore'
   s.dependency 'TwitterKit'
 
-  s.dependency "youtube-ios-player-helper", "~> 0.1.1"
+  s.dependency "youtube-ios-player-helper", "0.1.4"
 
   s.dependency 'AWSCore'
   s.dependency 'AWSCognito'
