@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Waysay"
-  s.version          = "0.4.0"
+  s.version          = "0.5.0"
   s.summary          = "Waysay Inbox SDK"
 
 # This description is used to generate tags and improve search results.
@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/*/*.*'
   s.resources 		= 'Pod/Assets/*.xcassets'
 
-  s.dependency 'AFNetworking', '~> 2.5'
+
+  s.dependency 'SDWebImage', '~>3.7'
 
   s.dependency 'SlackTextViewController'
 
-  #s.dependency 'XLRemoteImageView', '~> 2.0'
   s.pod_target_xcconfig = { 'ENABLE_STRICT_OBJC_MSGSEND' => 'NO' }
   s.xcconfig = { 'ENABLE_STRICT_OBJC_MSGSEND' => 'NO' }
 
@@ -48,9 +48,10 @@ Pod::Spec.new do |s|
   s.dependency "youtube-ios-player-helper", "~> 0.1.1"
 
   s.dependency 'AWSCore'
-  s.dependency 'AWSLambda'
   s.dependency 'AWSCognito'
   s.dependency 'AWSKinesis'
+
+  s.dependency 'HTHorizontalSelectionList', '~> 0.6.2'
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
