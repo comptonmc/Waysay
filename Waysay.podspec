@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Waysay"
-  s.version          = "0.5.6"
+  s.version          = "0.5.7"
   s.summary          = "Waysay Inbox SDK"
 
 # This description is used to generate tags and improve search results.
@@ -48,7 +48,6 @@ Pod::Spec.new do |s|
   s.dependency "youtube-ios-player-helper", "0.1.4"
 
   s.dependency 'AWSCore'
-  s.dependency 'AWSCognito'
   s.dependency 'AWSKinesis'
 
   s.dependency 'HTHorizontalSelectionList', '~> 0.6.2'
