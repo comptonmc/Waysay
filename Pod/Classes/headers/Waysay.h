@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "WSLocationManager.h"
+#import <UIKit/UIKit.h>
 
 @interface Waysay : NSObject
 
@@ -18,8 +19,11 @@
 + (Waysay *) sharedApplication;
 
 -(id) initWithApplicationID:(NSString *)applicationID andOrganizationID:(NSString *)organizationID;
-+(void) launchInboxFromViewController:(id)viewController;
++(void) launchInboxFromViewController:(id)viewController animated:(BOOL)animated;
 +(void) registerDeviceID:(NSData *)deviceID;
 +(void) resetUserWithCompletionHandler:(void (^)(NSDictionary *result, NSError *error))completionBlock;
++(void) logOpen;
++(void) handleLocalNotification:(UILocalNotification *)notification;
++(void) handleNotificationActionWithIdentifier:(NSString *)identifier andUserInfo:(NSDictionary *)userInfo andCompletionHandler:(void (^)())completionHandler;
 
 @end
