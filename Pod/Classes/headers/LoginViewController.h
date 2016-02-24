@@ -23,5 +23,6 @@
 @protocol WSLoginViewControllerDelegate <NSObject>
 
 - (void)refreshPreferences;
+- (void)dismissCallBack;
 
 @end
