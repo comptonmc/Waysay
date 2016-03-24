@@ -25,5 +25,7 @@
 +(void) logOpen;
 +(void) handleLocalNotification:(UILocalNotification *)notification;
 +(void) handleNotificationActionWithIdentifier:(NSString *)identifier andUserInfo:(NSDictionary *)userInfo andCompletionHandler:(void (^)())completionHandler;
+- (void) startWSLocation;
++ (void) registerWSNotifications;
 
 @end

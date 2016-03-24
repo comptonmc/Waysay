@@ -10,7 +10,7 @@
 #define WSLogger_h
 
 
-#ifdef DEBUG
+#ifdef WSDEBUG
     #define WSLog( logString, ... ) NSLog((@"DEBUG: %s:[Line: %d] - " logString), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
 #else
     #define WSLog(...)
