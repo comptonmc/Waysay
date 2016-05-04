@@ -15,6 +15,7 @@
 @property (nonatomic, readonly) BOOL downloadingJWT;
 @property (nonatomic, readonly) BOOL downloadingSettings;
 @property (strong, nonatomic) WSLocationManager *wsLocationManager;
+@property (nonatomic) BOOL loginDisabled;
 
 + (Waysay *) sharedApplication;
 
@@ -27,5 +28,16 @@
 +(void) handleNotificationActionWithIdentifier:(NSString *)identifier andUserInfo:(NSDictionary *)userInfo andCompletionHandler:(void (^)())completionHandler;
 - (void) startWSLocation;
 + (void) registerWSNotifications;
++ (void) launchCommentsFromViewController:(id)viewController forCommentsID:(NSString *)commentsID animated:(BOOL)animated;
+
++(void) triggerMessageFrom:(NSString *)fromName
+                 avatarURL:(NSString *)avatar
+               messageText:(NSString *)messageText
+                 mediaType:(NSUInteger)mediaType
+                  mediaURL:(NSString *)mediaURL
+                actionType:(NSUInteger)actionType
+                actionName:(NSString *)actionName
+                 actionURL:(NSString *)actionURL
+                completion:(void (^)(NSDictionary *result, NSError *error))completionBlock;
 
 @end
