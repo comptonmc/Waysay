@@ -30,6 +30,8 @@
 + (void) registerWSNotifications;
 + (void) launchCommentsFromViewController:(id)viewController forCommentsID:(NSString *)commentsID animated:(BOOL)animated;
 
++(void) authenticateEmail:(NSString *)emailAddress withUsername:(NSString *)userName completion:(void (^)(BOOL success, NSError *error))completionBlock;
+
 +(void) triggerMessageFrom:(NSString *)fromName
                  avatarURL:(NSString *)avatar
                messageText:(NSString *)messageText
