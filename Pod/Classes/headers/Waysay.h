@@ -42,4 +42,7 @@
                  actionURL:(NSString *)actionURL
                 completion:(void (^)(NSDictionary *result, NSError *error))completionBlock;
 
++(void) deleteTriggeredMessageWithTimestamp:(NSString *)timestamp
+                                 completion:(void (^)(NSDictionary *result, NSError *error))completionBlock;
+
 @end
