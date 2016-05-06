@@ -45,4 +45,6 @@
 +(void) deleteTriggeredMessageWithTimestamp:(NSString *)timestamp
                                  completion:(void (^)(NSDictionary *result, NSError *error))completionBlock;
 
++ (void) refreshFeeds;
+
 @end
