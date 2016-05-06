@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Waysay"
-  s.version          = "0.9.5"
+  s.version          = "0.9.6"
   s.summary          = "Waysay Inbox SDK"
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'SDWebImage', '~>3.7'
 
-  s.dependency 'SlackTextViewController'
+  s.dependency 'SlackTextViewController', '= 1.9.1'
 
   s.pod_target_xcconfig = { 'ENABLE_STRICT_OBJC_MSGSEND' => 'NO' }
   s.xcconfig = { 'ENABLE_STRICT_OBJC_MSGSEND' => 'NO' }
