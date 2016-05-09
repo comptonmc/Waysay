@@ -16,6 +16,7 @@
 @property (nonatomic, readonly) BOOL downloadingSettings;
 @property (strong, nonatomic) WSLocationManager *wsLocationManager;
 @property (nonatomic) BOOL loginDisabled;
+@property (strong, nonatomic) NSString *loginURL;
 
 + (Waysay *) sharedApplication;
 
