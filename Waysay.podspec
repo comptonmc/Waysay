@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Waysay"
-  s.version          = "0.9.13"
+  s.version          = "0.9.14"
   s.summary          = "Waysay Inbox SDK"
 
 # This description is used to generate tags and improve search results.
