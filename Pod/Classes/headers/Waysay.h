@@ -27,6 +27,7 @@
 +(void) logOpen;
 +(void) handleLocalNotification:(UILocalNotification *)notification;
 +(void) handleNotificationActionWithIdentifier:(NSString *)identifier andUserInfo:(NSDictionary *)userInfo andCompletionHandler:(void (^)())completionHandler;
++(void) handleRemoteNotification:(NSDictionary *)userInfo;
 - (void) startWSLocation;
 + (void) registerWSNotifications;
 + (void) launchCommentsFromViewController:(id)viewController forCommentsID:(NSString *)commentsID animated:(BOOL)animated;
